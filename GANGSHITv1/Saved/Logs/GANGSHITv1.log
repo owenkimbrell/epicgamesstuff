@@ -1,9 +1,9 @@
-﻿Log file open, 08/06/17 21:14:15
+﻿Log file open, 08/06/17 22:13:59
 LogInit:Display: Running engine for game: GANGSHITv1
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1137401098) SRandInit(1137401099).
+LogInit:Display: RandInit(1582209530) SRandInit(1582209530).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.102158
+LogStats: Stats thread started at 0.081495
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,448 +50,485 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.07-01.14.16:254][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.07-01.14.16:254][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.07-01.14.16:270][  0]LogInit: Computer: DESKTOP-31DK6I5
-[2017.08.07-01.14.16:270][  0]LogInit: User: OwenKimbrell
-[2017.08.07-01.14.16:270][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.08.07-01.14.16:270][  0]LogInit: High frequency timer resolution =2.143478 MHz
-[2017.08.07-01.14.16:270][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
-[2017.08.07-01.14.16:270][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.07-01.14.16:270][  0]LogMemory: Process Physical Memory: 271.70 MB used, 271.70 MB peak
-[2017.08.07-01.14.16:270][  0]LogMemory: Process Virtual Memory: 258.32 MB used, 258.32 MB peak
-[2017.08.07-01.14.16:270][  0]LogMemory: Physical Memory: 3869.75 MB used,  2154.03 MB free, 6023.78 MB total
-[2017.08.07-01.14.16:270][  0]LogMemory: Virtual Memory: 634.02 MB used,  2154.03 MB free, 134217728.00 MB total
-[2017.08.07-01.14.16:389][  0]LogInit: Using OS detected language (en-US).
-[2017.08.07-01.14.16:389][  0]LogInit: Using OS detected locale (en-US).
-[2017.08.07-01.14.16:394][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.08.07-01.14.17:959][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.07-01.14.18:198][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2017.08.07-01.14.18:198][  0]LogD3D11RHI:       128/0/3011 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.08.07-01.14.18:200][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.07-01.14.18:200][  0]LogD3D11RHI:       0/0/3011 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.07-01.14.18:200][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.07-01.14.18:210][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.07-01.14.18:210][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.07-01.14.18:210][  0]LogWindows: EnumDisplayDevices:
-[2017.08.07-01.14.18:211][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2017.08.07-01.14.18:211][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.08.07-01.14.18:211][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.08.07-01.14.18:211][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.08.07-01.14.18:211][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
-[2017.08.07-01.14.18:211][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
-[2017.08.07-01.14.18:211][  0]LogD3D11RHI:      Driver Date: 9-29-2016
-[2017.08.07-01.14.18:211][  0]LogRHI: Texture pool is 1143 MB (70% of 1633 MB)
-[2017.08.07-01.14.18:225][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.07-01.14.18:246][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.08.07-01.14.18:248][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Intermediate/Shaders/WorkingDirectory/9280/).
-[2017.08.07-01.14.18:248][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owen Kimbrell/AppData/Local/Temp/UnrealShaderWorkingDir/D7A609044498E6CF2768848683C98077/'.
-[2017.08.07-01.14.18:248][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.07-01.14.19:946][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.07-01.14.20:031][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.07-01.14.20:111][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.07-01.14.20:189][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.07-01.14.20:273][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.07-01.14.20:347][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.07-01.14.20:424][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.07-01.14.20:501][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.07-01.14.20:575][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.07-01.14.20:649][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.07-01.14.20:723][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.07-01.14.20:796][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.07-01.14.20:869][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.07-01.14.20:943][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.07-01.14.21:020][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.07-01.14.21:167][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.07-01.14.21:167][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.07-01.14.21:228][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.07-01.14.21:358][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.07-01.14.21:401][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.07-01.14.21:474][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.07-01.14.21:549][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.07-01.14.21:621][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.07-01.14.21:694][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.07-01.14.21:694][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.07-01.14.22:474][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.07-01.14.22:642][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/Owen Kimbrell/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.07-01.14.22:642][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owen Kimbrell/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.07-01.14.22:642][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.07-01.14.22:642][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.07-01.14.22:642][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.07-01.14.22:642][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.07-01.14.22:665][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.07-01.14.22:677][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owen Kimbrell/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.07-01.14.22:693][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.07-01.14.22:693][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.07-01.14.22:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.07-01.14.22:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.07-01.14.23:149][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.07-01.14.23:276][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.07-01.14.23:509][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.07-01.14.23:579][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.07-01.14.23:652][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.07-01.14.23:652][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.07-01.14.23:652][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.07-01.14.24:496][  0]LogNetVersion: GANGSHITv1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1702943582)
-[2017.08.07-01.14.24:576][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
-[2017.08.07-01.14.24:675][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.057881 seconds
-[2017.08.07-01.14.24:684][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.07-01.14.24:684][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.08.07-01.14.24:684][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.07-01.14.24:795][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.07-01.14.28:519][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.07-01.14.28:592][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.07-01.14.29:430][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.07-01.14.30:115][  0]SourceControl: Info Source control is disabled
-[2017.08.07-01.14.30:177][  0]SourceControl: Info Source control is disabled
-[2017.08.07-01.14.30:274][  0]SourceControl: Info Source control is disabled
-[2017.08.07-01.14.30:349][  0]SourceControl: Info Source control is disabled
-[2017.08.07-01.14.30:810][  0]LogLinker:Warning: Can't find file '/Game/QuickGravitySettings/FirstPersonBP/FirstPersonOverview'
-[2017.08.07-01.14.30:810][  0]LogLinker:Warning: Can't find file '/Game/QuickGravitySettings/FirstPersonBP/FirstPersonOverview'
-[2017.08.07-01.14.30:810][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/QuickGravitySettings/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2017.08.07-01.14.31:541][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.07-01.14.32:561][  0]LogEngine: Initializing Engine...
-[2017.08.07-01.14.32:561][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.07-01.14.32:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.07-01.14.32:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.07-01.14.33:124][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.07-01.14.33:135][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.07-01.14.33:293][  0]LogInit: FAudioDevice initialized.
-[2017.08.07-01.14.33:372][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Owen Kimbrell/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.07-01.14.33:386][  0]LogInit: Texture streaming: Enabled
-[2017.08.07-01.14.33:555][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.07-01.14.33:942][  0]LogInit: Transaction tracking system initialized
-[2017.08.07-01.14.34:545][  0]BlueprintLog: New page: Editor Load
-[2017.08.07-01.14.36:247][  0]LocalizationService: Info Localization service is disabled
-[2017.08.07-01.14.37:467][  0]LogConsoleResponse:Display: 
-[2017.08.07-01.14.37:757][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.07-01.14.37:757][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.07-01.14.38:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/' took 0.01s
-[2017.08.07-01.14.39:563][  0]SourceControl: Info Source control is disabled
-[2017.08.07-01.14.39:792][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
-[2017.08.07-01.14.39:946][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.08.07-01.14.40:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.08.07-01.14.40:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.08.07-01.14.40:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.08.07-01.14.40:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.08.07-01.14.40:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.08.07-01.14.40:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.08.07-01.14.40:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.08.07-01.14.40:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.08.07-01.14.40:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.08.07-01.14.40:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.08.07-01.14.40:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.08.07-01.14.40:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.08.07-01.14.40:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.08.07-01.14.40:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.08.07-01.14.40:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.08.07-01.14.40:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.08.07-01.14.40:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.08.07-01.14.40:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Fire01.uasset"
-[2017.08.07-01.14.40:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.08.07-01.14.40:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.08.07-01.14.40:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.08.07-01.14.40:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Light01.uasset"
-[2017.08.07-01.14.40:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.08.07-01.14.40:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Light02.uasset"
-[2017.08.07-01.14.40:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.08.07-01.14.40:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.08.07-01.14.40:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.08.07-01.14.41:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.08.07-01.14.41:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.08.07-01.14.41:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.08.07-01.14.41:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.08.07-01.14.41:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.08.07-01.14.41:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.08.07-01.14.41:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Steam01.uasset"
-[2017.08.07-01.14.41:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.08.07-01.14.41:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.08.07-01.14.41:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.08.07-01.14.41:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.08.07-01.14.41:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.08.07-01.14.41:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.08.07-01.14.41:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.08.07-01.14.41:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.08.07-01.14.41:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.08.07-01.14.41:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.08.07-01.14.41:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.08.07-01.14.41:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.08.07-01.14.41:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.08.07-01.14.41:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.08.07-01.14.41:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.08.07-01.14.41:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.08.07-01.14.41:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.08.07-01.14.43:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.08.07-01.14.43:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.08.07-01.14.43:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.08.07-01.14.43:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.08.07-01.14.43:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.08.07-01.14.43:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Maps/StarterMap.umap"
-[2017.08.07-01.14.43:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.08.07-01.14.43:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.08.07-01.14.43:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.08.07-01.14.43:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.08.07-01.14.43:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.08.07-01.14.43:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.08.07-01.14.43:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.08.07-01.14.43:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.08.07-01.14.43:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.08.07-01.14.43:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.08.07-01.14.43:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.08.07-01.14.44:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.08.07-01.14.44:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.08.07-01.14.44:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.08.07-01.14.44:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.08.07-01.14.44:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.08.07-01.14.44:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.08.07-01.14.44:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.08.07-01.14.44:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.08.07-01.14.44:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.08.07-01.14.44:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.08.07-01.14.44:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.08.07-01.14.44:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.08.07-01.14.44:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.08.07-01.14.44:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.08.07-01.14.44:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.08.07-01.14.44:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.08.07-01.14.44:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.08.07-01.14.44:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.08.07-01.14.44:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.08.07-01.14.44:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.08.07-01.14.44:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.08.07-01.14.44:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.08.07-01.14.44:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.08.07-01.14.44:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.08.07-01.14.44:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.08.07-01.14.44:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.08.07-01.14.44:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.08.07-01.14.44:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.08.07-01.14.44:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.08.07-01.14.44:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.08.07-01.14.44:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.08.07-01.14.45:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.08.07-01.14.45:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.08.07-01.14.45:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.08.07-01.14.45:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.08.07-01.14.45:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.08.07-01.14.45:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.08.07-01.14.45:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.08.07-01.14.45:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.08.07-01.14.46:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.08.07-01.14.46:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.08.07-01.14.46:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.08.07-01.14.46:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.08.07-01.14.46:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.08.07-01.14.46:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.08.07-01.14.46:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.08.07-01.14.46:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.08.07-01.14.46:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.08.07-01.14.46:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.08.07-01.14.46:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.08.07-01.14.46:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.08.07-01.14.46:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.08.07-01.14.46:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.08.07-01.14.46:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.08.07-01.14.46:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Door.uasset"
-[2017.08.07-01.14.46:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.08.07-01.14.46:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.08.07-01.14.46:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.08.07-01.14.46:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.08.07-01.14.47:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.08.07-01.14.47:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.08.07-01.14.47:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.08.07-01.14.47:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.08.07-01.14.47:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.08.07-01.14.47:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.08.07-01.14.47:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.08.07-01.14.47:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.08.07-01.14.47:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.08.07-01.14.47:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.08.07-01.14.47:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.08.07-01.14.47:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.08.07-01.14.47:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.08.07-01.14.47:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.08.07-01.14.47:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.08.07-01.14.47:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.08.07-01.14.47:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.08.07-01.14.47:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.08.07-01.14.47:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.08.07-01.14.47:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.08.07-01.14.47:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.08.07-01.14.47:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.08.07-01.14.47:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.08.07-01.14.47:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.08.07-01.14.47:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.08.07-01.14.47:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.08.07-01.14.47:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.08.07-01.14.47:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.08.07-01.14.47:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.08.07-01.14.48:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.08.07-01.14.48:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.08.07-01.14.48:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.08.07-01.14.48:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.08.07-01.14.48:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.08.07-01.14.48:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.08.07-01.14.48:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.08.07-01.14.48:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.08.07-01.14.48:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.08.07-01.14.48:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.08.07-01.14.48:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.08.07-01.14.48:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.08.07-01.14.48:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.08.07-01.14.48:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.08.07-01.14.48:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.08.07-01.14.48:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.08.07-01.14.49:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.08.07-01.14.49:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.08.07-01.14.49:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.08.07-01.14.49:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.08.07-01.14.49:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.08.07-01.14.49:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.08.07-01.14.50:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.08.07-01.14.50:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.08.07-01.14.50:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.08.07-01.14.50:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.08.07-01.14.50:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.08.07-01.14.50:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.08.07-01.14.50:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.08.07-01.14.50:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.08.07-01.14.50:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.08.07-01.14.50:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.08.07-01.14.50:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.08.07-01.14.51:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.08.07-01.14.51:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.08.07-01.14.51:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.08.07-01.14.51:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.08.07-01.14.51:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.08.07-01.14.51:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.08.07-01.14.51:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.08.07-01.14.51:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.08.07-01.14.52:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.08.07-01.14.52:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.08.07-01.14.52:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.08.07-01.14.52:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.08.07-01.14.53:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.08.07-01.14.53:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.08.07-01.14.54:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.08.07-01.14.55:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.08.07-01.14.55:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.08.07-01.14.55:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.08.07-01.14.55:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.08.07-01.14.55:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.08.07-01.14.55:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.08.07-01.14.55:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.08.07-01.14.56:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.08.07-01.14.56:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.08.07-01.14.56:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.08.07-01.14.56:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.08.07-01.14.56:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.08.07-01.14.56:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.08.07-01.14.56:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.08.07-01.14.57:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.08.07-01.14.57:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.08.07-01.14.57:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.08.07-01.14.57:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.08.07-01.14.57:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.08.07-01.14.58:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.08.07-01.14.58:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.08.07-01.14.58:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.08.07-01.14.58:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.08.07-01.14.58:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.08.07-01.14.58:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.08.07-01.14.58:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.08.07-01.14.59:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.08.07-01.14.59:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.08.07-01.14.59:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.08.07-01.15.00:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.08.07-01.15.00:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.08.07-01.15.01:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.08.07-01.15.01:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.08.07-01.15.01:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.08.07-01.15.01:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.08.07-01.15.01:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.08.07-01.15.01:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.08.07-01.15.02:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.08.07-01.15.02:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.08.07-01.15.02:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.08.07-01.15.02:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.08.07-01.15.02:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.08.07-01.15.02:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.08.07-01.15.02:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.08.07-01.15.02:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.08.07-01.15.02:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.08.07-01.15.02:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.08.07-01.15.02:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.08.07-01.15.02:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.08.07-01.15.03:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.08.07-01.15.03:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.08.07-01.15.03:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.08.07-01.15.03:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.08.07-01.15.03:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.08.07-01.15.03:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.08.07-01.15.03:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.08.07-01.15.03:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.08.07-01.15.04:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.08.07-01.15.04:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.08.07-01.15.04:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.08.07-01.15.04:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.08.07-01.15.04:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.08.07-01.15.04:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.08.07-01.15.05:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.08.07-01.15.05:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.08.07-01.15.05:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.08.07-01.15.06:099][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2017.08.07-01.15.06:806][  0]LogSavePackage: Save=34.12ms
-[2017.08.07-01.15.06:806][  0]LogSavePackage: Moving '../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Saved/Floor_400x400AC196CBE4259C866DB725789B1CEFF3D.tmp' to '../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.08.07-01.15.06:817][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.08.07-01.15.06:817][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.08.07-01.15.06:979][  0]LightingResults: New page: Lighting Build
-[2017.08.07-01.15.07:048][  0]MapCheck: New page: Map Check
-[2017.08.07-01.15.07:048][  0]LightingResults: New page: Lighting Build
-[2017.08.07-01.15.10:437][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2017.08.07-01.15.11:961][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
-[2017.08.07-01.15.13:245][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
-[2017.08.07-01.15.15:820][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
-[2017.08.07-01.15.16:720][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
-[2017.08.07-01.15.16:785][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2017.08.07-01.15.17:194][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
-[2017.08.07-01.15.17:632][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
-[2017.08.07-01.15.18:349][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
-[2017.08.07-01.15.18:693][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
-[2017.08.07-01.15.18:731][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2017.08.07-01.15.19:281][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
-[2017.08.07-01.15.19:802][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
-[2017.08.07-01.15.20:663][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
-[2017.08.07-01.15.21:072][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
-[2017.08.07-01.15.21:596][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.08.07-01.15.22:661][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.07-01.15.22:787][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.07-01.15.22:868][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.717ms to complete.
-[2017.08.07-01.15.22:869][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 15.891
-[2017.08.07-01.15.22:956][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.08.07-01.15.22:957][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.08.07-01.15.24:921][  0]LogCollectionManager: Loaded 0 collections in 0.002017 seconds
-[2017.08.07-01.15.25:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Saved/Collections/' took 0.01s
-[2017.08.07-01.15.25:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/Developers/OwenKimbrell/Collections/' took 0.01s
-[2017.08.07-01.15.25:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owen Kimbrell/Documents/Unreal Projects/TEAM/BP/epicgamesstuff/GANGSHITv1/Content/Collections/' took 0.01s
-[2017.08.07-01.15.25:150][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2017.08.07-01.15.25:161][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2330 classes and 493 folders.
-[2017.08.07-01.15.25:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2017.08.07-01.15.25:328][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.08.07-01.15.25:391][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.07-01.15.25:436][  0]LogSlate: Took 0.013251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.07-01.15.25:462][  0]LogSlate: Took 0.023832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.07-01.15.25:599][  0]LogSlate: Took 0.029482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.07-01.15.26:193][  0]LogRenderer: Reallocating scene render targets to support 836x424 NumSamples 1 (Frame:1).
-[2017.08.07-01.15.27:388][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.07-01.15.27:696][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.07-01.15.27:880][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.08.07-01.15.27:881][  0]LogLoad: (Engine Initialization) Total time: 74.02 seconds
-[2017.08.07-01.15.27:881][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.49 seconds
-[2017.08.07-01.15.27:881][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.08.07-01.15.28:034][  0]LogOcInput: OculusInput pre-init called
-[2017.08.07-01.15.28:045][  0]LogHMD: Starting GearVRController plugin
-[2017.08.07-01.15.28:425][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.07-01.15.28:913][  1]LogAssetRegistry: Asset discovery search completed in 64.3598 seconds
-[2017.08.07-01.15.28:927][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.07-01.15.28:928][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2017.08.07-02.14.00:177][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-02.14.00:177][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.07-02.14.00:189][  0]LogInit: Computer: DESKTOP-5TLKLB1
+[2017.08.07-02.14.00:189][  0]LogInit: User: JonSledge
+[2017.08.07-02.14.00:189][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.07-02.14.00:189][  0]LogInit: High frequency timer resolution =2.648434 MHz
+[2017.08.07-02.14.00:189][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.08.07-02.14.00:189][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-02.14.00:189][  0]LogMemory: Process Physical Memory: 272.57 MB used, 272.57 MB peak
+[2017.08.07-02.14.00:189][  0]LogMemory: Process Virtual Memory: 266.43 MB used, 266.43 MB peak
+[2017.08.07-02.14.00:189][  0]LogMemory: Physical Memory: 6291.20 MB used,  5879.96 MB free, 12171.16 MB total
+[2017.08.07-02.14.00:189][  0]LogMemory: Virtual Memory: 646.83 MB used,  5879.96 MB free, 134217728.00 MB total
+[2017.08.07-02.14.00:257][  0]LogInit: Using OS detected language (en-US).
+[2017.08.07-02.14.00:257][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.07-02.14.00:259][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.07-02.14.01:321][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.07-02.14.01:327][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.07-02.14.01:327][  0]LogD3D11RHI:       128/0/6085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.07-02.14.01:328][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.07-02.14.01:328][  0]LogD3D11RHI:       0/0/6085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.07-02.14.01:328][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.07-02.14.01:335][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.07-02.14.01:335][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.07-02.14.01:335][  0]LogWindows: EnumDisplayDevices:
+[2017.08.07-02.14.01:335][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.07-02.14.01:335][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.07-02.14.01:335][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.07-02.14.01:335][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.07-02.14.01:335][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.07-02.14.01:335][  0]LogD3D11RHI:   Driver Version: 21.20.16.4550 (internal:21.20.16.4550, unified:21.20.16.4550)
+[2017.08.07-02.14.01:335][  0]LogD3D11RHI:      Driver Date: 11-11-2016
+[2017.08.07-02.14.01:336][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.07-02.14.01:340][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.07-02.14.01:345][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.07-02.14.01:346][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Intermediate/Shaders/WorkingDirectory/12396/).
+[2017.08.07-02.14.01:347][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jon Sledge/AppData/Local/Temp/UnrealShaderWorkingDir/784178D146CF31BE0825A2ADEE8BA284/'.
+[2017.08.07-02.14.01:347][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.07-02.14.02:436][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.07-02.14.02:487][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.07-02.14.02:536][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.07-02.14.02:586][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.07-02.14.02:636][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.07-02.14.02:687][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.07-02.14.02:742][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.07-02.14.02:790][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.07-02.14.02:834][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.07-02.14.02:884][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.07-02.14.02:931][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.07-02.14.02:980][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.07-02.14.03:028][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.07-02.14.03:077][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.07-02.14.03:128][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.07-02.14.03:227][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.07-02.14.03:227][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.07-02.14.03:265][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.07-02.14.03:359][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.07-02.14.03:389][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.07-02.14.03:440][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.07-02.14.03:490][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.07-02.14.03:540][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.07-02.14.03:589][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.07-02.14.03:589][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.07-02.14.04:083][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.07-02.14.04:183][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Jon Sledge/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.07-02.14.04:183][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jon Sledge/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.07-02.14.04:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.07-02.14.04:183][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.07-02.14.04:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.07-02.14.04:183][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.07-02.14.04:199][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.07-02.14.04:212][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jon Sledge/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.07-02.14.04:222][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.07-02.14.04:222][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.07-02.14.04:223][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-02.14.04:223][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-02.14.04:540][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-02.14.04:620][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.07-02.14.04:783][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.07-02.14.04:828][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.07-02.14.04:876][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.07-02.14.04:876][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.07-02.14.04:876][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.07-02.14.05:471][  0]LogNetVersion: GANGSHITv1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1702943582)
+[2017.08.07-02.14.05:537][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.08.07-02.14.05:611][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.043167 seconds
+[2017.08.07-02.14.05:616][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.07-02.14.05:616][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.07-02.14.05:616][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.07-02.14.05:684][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.07-02.14.08:149][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.07-02.14.08:189][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.07-02.14.08:707][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.07-02.14.09:144][  0]SourceControl: Info Source control is disabled
+[2017.08.07-02.14.09:182][  0]SourceControl: Info Source control is disabled
+[2017.08.07-02.14.09:233][  0]SourceControl: Info Source control is disabled
+[2017.08.07-02.14.09:284][  0]SourceControl: Info Source control is disabled
+[2017.08.07-02.14.09:623][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.07-02.14.09:623][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.08.07-02.14.09:623][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.08.07-02.14.10:267][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.07-02.14.11:071][  0]LogEngine: Initializing Engine...
+[2017.08.07-02.14.11:071][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.07-02.14.11:329][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.07-02.14.11:329][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.07-02.14.11:490][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.07-02.14.11:502][  0]LogInit: XAudio2 using 'E430i-C2 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.07-02.14.11:509][  0]LogInit: FAudioDevice initialized.
+[2017.08.07-02.14.11:558][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Jon Sledge/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.07-02.14.11:576][  0]LogInit: Texture streaming: Enabled
+[2017.08.07-02.14.11:685][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.07-02.14.11:901][  0]LogInit: Transaction tracking system initialized
+[2017.08.07-02.14.12:268][  0]BlueprintLog: New page: Editor Load
+[2017.08.07-02.14.13:333][  0]LocalizationService: Info Localization service is disabled
+[2017.08.07-02.14.14:631][  0]LogConsoleResponse:Display: 
+[2017.08.07-02.14.14:880][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.07-02.14.14:881][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.07-02.14.15:999][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/' took 0.03s
+[2017.08.07-02.14.16:050][  0]SourceControl: Info Source control is disabled
+[2017.08.07-02.14.16:051][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.07-02.14.16:051][  0]LightingResults: New page: Lighting Build
+[2017.08.07-02.14.16:102][  0]MapCheck: New page: Map Check
+[2017.08.07-02.14.16:102][  0]LightingResults: New page: Lighting Build
+[2017.08.07-02.14.16:940][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.07-02.14.16:953][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.07-02.14.16:994][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.07-02.14.17:055][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.11ms to complete.
+[2017.08.07-02.14.17:055][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.005
+[2017.08.07-02.14.17:135][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-02.14.17:135][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-02.14.17:712][  0]LogCollectionManager: Loaded 0 collections in 0.003255 seconds
+[2017.08.07-02.14.17:810][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Saved/Collections/' took 0.01s
+[2017.08.07-02.14.17:810][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/Developers/JonSledge/Collections/' took 0.01s
+[2017.08.07-02.14.17:810][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/Collections/' took 0.01s
+[2017.08.07-02.14.17:810][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.07-02.14.17:823][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2329 classes and 491 folders.
+[2017.08.07-02.14.17:908][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.07-02.14.19:156][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.07-02.14.19:204][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.07-02.14.19:245][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.07-02.14.19:250][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.07-02.14.19:253][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.07-02.14.19:275][  0]LogSlate: Took 0.018097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.07-02.14.19:410][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:1).
+[2017.08.07-02.14.19:942][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.07-02.14.20:011][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.07-02.14.20:011][  0]LogLoad: (Engine Initialization) Total time: 21.75 seconds
+[2017.08.07-02.14.20:011][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2017.08.07-02.14.20:011][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.07-02.14.20:032][  0]LogOcInput: OculusInput pre-init called
+[2017.08.07-02.14.20:032][  0]LogHMD: Starting GearVRController plugin
+[2017.08.07-02.14.20:048][  0]LogAssetRegistry: Asset discovery search completed in 14.5333 seconds
+[2017.08.07-02.14.20:050][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.07-02.14.20:050][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.08.07-02.14.20:051][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.08.07-02.14.20:071][  0]LogSlate: Took 0.000618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-02.14.53:905][409]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (SK_Mannequin_Arms_Skeleton)
+[2017.08.07-02.14.57:724][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.07-02.14.58:555][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.07-02.14.59:471][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.07-02.14.59:901][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.07-02.15.08:503][ 27]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-02.15.08:788][ 27]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.08.07-02.15.09:165][ 27]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.08.07-02.15.09:262][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.08.07-02.15.09:269][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.08.07-02.15.09:276][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.08.07-02.15.09:320][ 27]LogSlate: Took 0.024793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.07-02.15.12:171][113]LogSlate: Took 0.001026 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.07-02.15.18:697][303]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.08.07-02.15.18:917][304]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.08.07-02.15.19:070][305]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.08.07-02.15.19:214][306]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.08.07-02.15.30:937][687]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2017.08.07-02.15.31:097][688]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2017.08.07-02.15.31:265][690]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2017.08.07-02.15.31:390][691]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2017.08.07-02.15.37:266][907]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
+[2017.08.07-02.15.38:503][907]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
+[2017.08.07-02.15.38:611][907]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
+[2017.08.07-02.15.38:737][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.08.07-02.15.38:743][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.08.07-02.15.38:750][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2017.08.07-02.15.45:953][143]LogActorFactory: Actor Factory created Cube
+[2017.08.07-02.15.52:841][384]LogActorFactory: Actor Factory created Cube
+[2017.08.07-02.16.17:346][247]LogSavePackage: Save=279.93ms
+[2017.08.07-02.16.17:346][247]LogSavePackage: Moving '../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Saved/FirstPersonExampleMapBECA7B184A70D6AE41A83F93DCE2F2A4.tmp' to '../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.07-02.16.17:351][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.07-02.16.20:018][247]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.07-02.16.23:405][247]LogSavePackage: Save=4375.51ms
+[2017.08.07-02.16.23:405][247]LogSavePackage: Moving '../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Saved/FirstPersonExampleMap_BuiltData8264854B4EC6DD6B6BA9F895F2994783.tmp' to '../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.08.07-02.16.23:408][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.08.07-02.16.58:679][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.08.07-02.17.21:536][416]LogSavePackage: Save=223.30ms
+[2017.08.07-02.17.21:536][416]LogSavePackage: Moving '../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Saved/FirstPersonExampleMap436D717E460C75114CFF9E8E64A611FD.tmp' to '../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.07-02.17.21:541][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.07-02.17.21:576][416]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.408
+[2017.08.07-02.17.21:700][416]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-02.17.21:700][416]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-02.17.22:008][417]Cmd: QUIT_EDITOR
+[2017.08.07-02.17.22:045][417]LogExit: Preparing to exit.
+[2017.08.07-02.17.22:413][417]LogDirectoryWatcher: A directory notification for 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/' was aborted.
+[2017.08.07-02.17.22:512][417]LogExit: Editor shut down
+[2017.08.07-02.17.22:520][417]LogExit: Transaction tracking system shut down
+[2017.08.07-02.17.22:691][417]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.07-02.17.22:691][417]LogExit: Object subsystem successfully closed.
+[2017.08.07-02.17.22:715][417]LogD3D11RHI: Shutdown
+[2017.08.07-02.17.22:715][417]LogD3D11RHI: CleanupD3DDevice
+[2017.08.07-02.17.23:189][417]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.07-02.17.23:217][417]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2017.08.07-02.17.23:217][417]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.07-02.17.23:217][417]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.07-02.17.23:217][417]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.07-02.17.23:217][417]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.07-02.17.23:217][417]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.07-02.17.23:239][417]LogDirectoryWatcher: A directory notification for 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/Collections/' was aborted.
+[2017.08.07-02.17.23:239][417]LogDirectoryWatcher: A directory notification for 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/Developers/JonSledge/Collections/' was aborted.
+[2017.08.07-02.17.23:239][417]LogDirectoryWatcher: A directory notification for 'C:/Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Saved/Collections/' was aborted.
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.07-02.17.23:239][417]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.07-02.17.23:240][417]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.07-02.17.23:805][417]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.07-02.17.23:806][417]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.07-02.17.23:806][417]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.07-02.17.23:806][417]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.07-02.17.23:806][417]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.07-02.17.23:806][417]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.07-02.17.23:806][417]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.07-02.17.23:806][417]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.07-02.17.23:849][417]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.07-02.17.23:850][417]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.07-02.17.23:979][417]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.07-02.17.23:980][417]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.07-02.17.24:082][417]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.07-02.17.24:182][417]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.07-02.17.24:182][417]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.07-02.17.24:182][417]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.07-02.17.24:182][417]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.07-02.17.24:182][417]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.07-02.17.24:182][417]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.07-02.17.24:183][417]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.07-02.17.24:185][417]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.07-02.17.24:185][417]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.07-02.17.24:185][417]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.07-02.17.24:185][417]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.07-02.17.24:185][417]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.07-02.17.24:185][417]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.07-02.17.24:341][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.07-02.17.24:341][417]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jon Sledge/Documents/GitHub/epicgamesstuff/GANGSHITv1/Content/' was aborted.
+[2017.08.07-02.17.24:341][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.07-02.17.24:341][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.07-02.17.24:343][417]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.07-02.17.24:420][417]LogDerivedDataCache: Shutdown
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.07-02.17.24:420][417]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.07-02.17.24:421][417]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.07-02.17.24:421][417]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.07-02.17.24:421][417]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.07-02.17.24:421][417]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA028BC5C-4D4A-AC11-9C85-9CA2EA93A06F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a4bf194840145142aad31c9a8b7dc2b4%7Cc8aaab941b6041cdad7049454197db70%7Cb1005d92-cc27-411a-94a3-6ae2fd2c049e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.07-02.17.24:448][417]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.07-02.17.24:449][417]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.07-02.17.24:450][417]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.07-02.17.24:450][417]LogExit: Exiting.
+[2017.08.07-02.17.24:462][417]Log file closed, 08/06/17 22:17:24
